@@ -17,7 +17,7 @@ Finalidade da api:
 
 * **GET**           
   - <h4 style="color: #40b4e5">http:// localhost:5000/Product</h4>  
-  - <h4 style="color: #40b4e5">http:// localhost:5000/Product/{id}</h4><br>    
+  - <h4 style="color: #40b4e5">http:// localhost:5000/Product/{id}</h4>    
 
   - <h4 style="color: #40b4e5">http:// localhost:5000/Product/brand</h4>  
     <em>Busca os produtos por marca.</em>     
