@@ -11,35 +11,35 @@ Finalidade da api:
 ## 🌐 Endpoints disponíveis
 
 * **POST**     
-  - <h3 style="color: #40b4e5">http:// localhost:5000/login</h3> 
-  - <h3 style="color: #40b4e5">http:// localhost:5000/Produc</h3>    
-  - <h3 style="color: #40b4e5">http:// localhost:5000/Product/query</h3>   
+  - <h4 style="color: #40b4e5">http:// localhost:5000/login</h4> 
+  - <h4 style="color: #40b4e5">http:// localhost:5000/Produc</h4>    
+  - <h4 style="color: #40b4e5">http:// localhost:5000/Product/query</h4>   
 
 * **GET**           
-  - <h3 style="color: #40b4e5">http:// localhost:5000/Product</h3>  
-  - <h3 style="color: #40b4e5">http:// localhost:5000/Product/{id}</h3><br>    
+  - <h4 style="color: #40b4e5">http:// localhost:5000/Product</h4>  
+  - <h4 style="color: #40b4e5">http:// localhost:5000/Product/{id}</h4><br>    
 
-  - <h3 style="color: #40b4e5">http:// localhost:5000/Product/brand</h3>  
+  - <h4 style="color: #40b4e5">http:// localhost:5000/Product/brand</h4>  
     <em>Busca os produtos por marca.</em>  
 
     <em>Exemplo de algumas marcas disponíveis: benefit, clinique, covergirl, dior, l'oreal, maybelline, milani, nyx, revlon.</em> 
 
-  - <h3 style="color: #40b4e5">http:// localhost:5000/Product/allBrands</h3>   
+  - <h4 style="color: #40b4e5">http:// localhost:5000/Product/allBrands</h4>   
     <em>Busca todas as marcas disponíveis e a quantidade de produtos em cada uma.</em><br><br>   
   
-  - <h3 style="color: #40b4e5">http:// localhost:5000/Product/type</h3> 
+  - <h4 style="color: #40b4e5">http:// localhost:5000/Product/type</h4> 
     <em>Busca um produto por seu tipo e pela nota mínima desejada de avaliação.  
 
     Exemplo de alguns tipos de produtos disponíveis: blush, bronzer, eyebrow, eyeshadow, foundation, lipstick, mascara, nail polish.</em> 
 
 * **PUT**     
-  - <h3 style="color: #40b4e5">http:// localhost:5000/Product/{id}</h3>    
+  - <h4 style="color: #40b4e5">http:// localhost:5000/Product/{id}</h4>    
 
 * **DELETE**    
-  - <h3 style="color: #40b4e5">http:// localhost:5000/Product/{id}</h3>   
+  - <h4 style="color: #40b4e5">http:// localhost:5000/Product/{id}</h4>   
     
 * **PATCH**     
-  - <h3 style="color: #40b4e5">http:// localhost:5000/Product/{id}</h3>   
+  - <h4 style="color: #40b4e5">http:// localhost:5000/Product/{id}</h4>   
 
 Objeto do método patch:
 
