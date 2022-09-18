@@ -1,48 +1,47 @@
-## Make Up Store - API
+# Make Up Store - API
 
-API REST desenvolvida para a matéria Web III o curso Web Full Stack da ADA.
-
+API REST desenvolvida para a matéria Web III o curso Web Full Stack da ADA.  
 
 Finalidade da api:
 
 - Trata-se de uma base de dados de produtos cosméticos que simula os produtos oferecidos por uma loja aos clientes.
-- A base de dados foi criada com base em alguns dados da api pública: [Makeup-api](https://makeup-api.herokuapp.com/)
+- A base de dados foi criada com base em alguns dados da api pública: [Makeup-api](https://makeup-api.herokuapp.com/)<br><br>  
 
 
-
-### 🌐 Endpoints disponíveis
+## 🌐 Endpoints disponíveis
 
 * **POST**     
-  http://localhost:5000/login  
-  http://localhost:5000/Product  
-  http://localhost:5000/Product/query  
+  - <h3 style="color: #40b4e5">http:// localhost:5000/login</h3> 
+  - <h3 style="color: #40b4e5">http:// localhost:5000/Produc</h3>    
+  - <h3 style="color: #40b4e5">http:// localhost:5000/Product/query</h3>   
 
 * **GET**           
-  http://localhost:5000/Product  
+  - <h3 style="color: #40b4e5">http:// localhost:5000/Product</h3>  
+  - <h3 style="color: #40b4e5">http:// localhost:5000/Product/{id}</h3><br>    
 
-  http://localhost:5000/Product/{id}    
+  - <h3 style="color: #40b4e5">http:// localhost:5000/Product/brand</h3>  
+    <em>Busca os produtos por marca.</em>  
 
-  http://localhost:5000/Product/brand  
-  Busca os produtos por marca.
-  Exemplo de algumas marcas disponíveis: benefit, clinique, covergirl, dior, l'oreal, maybelline, milani, nyx, revlon.  
+    <em>Exemplo de algumas marcas disponíveis: benefit, clinique, covergirl, dior, l'oreal, maybelline, milani, nyx, revlon.</em> 
 
-  http://localhost:5000/Product/allBrands 
-  Busca todas as marcas disponíveis e a quantidade de produtos em cada uma.    
+  - <h3 style="color: #40b4e5">http:// localhost:5000/Product/allBrands</h3>   
+    <em>Busca todas as marcas disponíveis e a quantidade de produtos em cada uma.</em><br><br>   
+  
+  - <h3 style="color: #40b4e5">http:// localhost:5000/Product/type</h3> 
+    <em>Busca um produto por seu tipo e pela nota mínima desejada de avaliação.  
 
-  http://localhost:5000/Product/type  
-  Busca um produto por seu tipo e pela nota mínima desejada de avaliação.  
-  Exemplo de alguns tipos de produtos disponíveis: blush, bronzer, eyebrow, eyeshadow, foundation, lipstick, mascara, nail polish. 
+    Exemplo de alguns tipos de produtos disponíveis: blush, bronzer, eyebrow, eyeshadow, foundation, lipstick, mascara, nail polish.</em> 
 
 * **PUT**     
-  http://localhost:5000/Product/{id}   
+  - <h3 style="color: #40b4e5">http:// localhost:5000/Product/{id}</h3>    
 
 * **DELETE**    
-  http://localhost:5000/Product/{id}  
+  - <h3 style="color: #40b4e5">http:// localhost:5000/Product/{id}</h3>   
     
 * **PATCH**     
-  http://localhost:5000/Product/{id}  
+  - <h3 style="color: #40b4e5">http:// localhost:5000/Product/{id}</h3>   
 
-Objeto para o método patch:
+Objeto do método patch:
 
 ```
 [  
@@ -71,12 +70,12 @@ Exemplo de objeto para o método patch:
   }  
 ]  
 ```  
+<br><br> 
 
 
+## ⚙ Configurações
 
-### ⚙ Configurações
-
-- No arquivo appsettings.Development.json deve-se configurar as seguintes variáveis:  
+No arquivo <span style="color: #ffe69c"><em>appsettings.Development.json</em></span> deve-se configurar as seguintes variáveis:  
 
 ```
   "TokenConfiguration": {  
