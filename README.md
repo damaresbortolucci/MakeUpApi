@@ -22,10 +22,13 @@ http://localhost:5000/Product
 http://localhost:5000/Product/{id}
 
 - (PUT)       
-http://localhost:5000/Product/{id}
+http://localhost:5000/Product/{id}  
+
+- (DELETE)    
+http://localhost:5000/Product/{id}  
     
 - (PATCH)     
-http://localhost:5000/Product/{id}
+http://localhost:5000/Product/{id}  
 
 Objeto para o método patch:
 
@@ -55,11 +58,7 @@ Exemplo de objeto para o método patch:
     "value": "5.99'"  
   }  
 ]  
-```
-
-- (DELETE)    
-http://localhost:5000/Product/{id}
-
+```  
 
 
 
