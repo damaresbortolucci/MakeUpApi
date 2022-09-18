@@ -20,12 +20,11 @@ Finalidade da api:
   - <h4 style="color: #40b4e5">http:// localhost:5000/Product/{id}</h4><br>    
 
   - <h4 style="color: #40b4e5">http:// localhost:5000/Product/brand</h4>  
-    <em>Busca os produtos por marca.</em>  
-
+    <em>Busca os produtos por marca.</em>     
     <em>Exemplo de algumas marcas disponíveis: benefit, clinique, covergirl, dior, l'oreal, maybelline, milani, nyx, revlon.</em> 
 
   - <h4 style="color: #40b4e5">http:// localhost:5000/Product/allBrands</h4>   
-    <em>Busca todas as marcas disponíveis e a quantidade de produtos em cada uma.</em><br><br>   
+    <em>Busca todas as marcas disponíveis e a quantidade de produtos em cada uma.</em><br>  
   
   - <h4 style="color: #40b4e5">http:// localhost:5000/Product/type</h4> 
     <em>Busca um produto por seu tipo e pela nota mínima desejada de avaliação.  
