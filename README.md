@@ -12,12 +12,12 @@ Finalidade da api:
 
 ### 🌐 Endpoints disponíveis
 
-@@POST@@     
+* **POST**     
   http://localhost:5000/login  
   http://localhost:5000/Product  
   http://localhost:5000/Product/query  
 
-@@GET@@           
+* **GET**           
   http://localhost:5000/Product  
 
   http://localhost:5000/Product/{id}    
@@ -33,13 +33,13 @@ Finalidade da api:
   Busca um produto por seu tipo e pela nota mínima desejada de avaliação.  
   Exemplo de alguns tipos de produtos disponíveis: blush, bronzer, eyebrow, eyeshadow, foundation, lipstick, mascara, nail polish. 
 
-@@PUT@@     
+* **PUT**     
   http://localhost:5000/Product/{id}   
 
-@@DELETE@@    
+* **DELETE**    
   http://localhost:5000/Product/{id}  
     
-@@PATCH@@     
+* **PATCH**     
   http://localhost:5000/Product/{id}  
 
 Objeto para o método patch:
