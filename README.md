@@ -12,23 +12,35 @@ Finalidade da api:
 
 ### 🌐 Endpoints disponíveis
 
-- (POST)      
-http://localhost:5000/login  
-http://localhost:5000/Product/query        
-http://localhost:5000/Product  
+**POST**     
+  [http://localhost:5000/login]  
+  [http://localhost:5000/Product]  
+  [http://localhost:5000/Product/query]  
 
-- (GET)       
-http://localhost:5000/Product           
-http://localhost:5000/Product/{id}
+**GET**         
+  [http://localhost:5000/Product]  
 
-- (PUT)       
-http://localhost:5000/Product/{id}  
+  [http://localhost:5000/Product/{id}]    
 
-- (DELETE)    
-http://localhost:5000/Product/{id}  
+  [http://localhost:5000/Product/brand]  
+  Busca os produtos por marca.
+  Exemplo de algumas marcas disponíveis: benefit, clinique, covergirl, dior, l'oreal, maybelline, milani, nyx, revlon.  
+
+  [http://localhost:5000/Product/allBrands] 
+  Busca todas as marcas disponíveis e a quantidade de produtos em cada uma.    
+
+  [http://localhost:5000/Product/type]  
+  Busca um produto por seu tipo e pela nota mínima desejada de avaliação.  
+  Exemplo de alguns tipos de produtos disponíveis: blush, bronzer, eyebrow, eyeshadow, foundation, lipstick, mascara, nail polish. 
+
+**PUT**     
+  [http://localhost:5000/Product/{id}]  
+
+**DELETE**    
+  [http://localhost:5000/Product/{id}]  
     
-- (PATCH)     
-http://localhost:5000/Product/{id}  
+**PATCH**     
+  [http://localhost:5000/Product/{id}]  
 
 Objeto para o método patch:
 
@@ -55,7 +67,7 @@ Exemplo de objeto para o método patch:
   {  
     "path": "price",   
     "op": "replace",  
-    "value": "5.99'"  
+    "value": "5.99"  
   }  
 ]  
 ```  

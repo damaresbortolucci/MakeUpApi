@@ -44,7 +44,7 @@ namespace MakeupAPI.Repositories
         }
 
 
-        public Task<IQueryable<Product>> GetAverageByType(string type, float minRating)
+        public Task<IQueryable<Product>> GetTypeAndRating(string type, float minRating)
         {
             return Task.Run(() =>
             {

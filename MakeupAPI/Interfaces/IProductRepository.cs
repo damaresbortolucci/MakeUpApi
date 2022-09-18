@@ -10,7 +10,7 @@ namespace MakeupAPI.Interfaces
 
         Task<IOrderedQueryable<Product>> GetByBrandName(string brand);
 
-        Task<IQueryable<Product>> GetAverageByType(string type, float minRating);
+        Task<IQueryable<Product>> GetTypeAndRating(string type, float minRating);
 
         Task<IQueryable<Product>> GetAllBrands();
 

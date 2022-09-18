@@ -84,12 +84,12 @@ namespace MakeupAPI.Controllers
 
 
         
-        [HttpGet("averageByType")]
+        [HttpGet("type")]
         [ProducesResponseType(typeof(Product), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(object), StatusCodes.Status404NotFound)]
         public async Task<IActionResult> Get([FromQuery] string type, [FromQuery] float minRating = 1)
         {
-            var products = await _repository.GetAverageByType(type, minRating);
+            var products = await _repository.GetTypeAndRating(type, minRating);
 
             if (products == null)
                 return NotFound(new { message = "Tipo de produto não encontrado" });
