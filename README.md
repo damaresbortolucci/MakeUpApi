@@ -28,6 +28,8 @@ http://localhost:5000/Product/{id}
 http://localhost:5000/Product/{id}
 
 Objeto para o método patch:
+
+```
 [  
   {  
     "path": "string",     
@@ -36,6 +38,7 @@ Objeto para o método patch:
   }   
 ]   
 
+```
 Onde:  
 
 - "path" é o atributo que se deseja alterar: name, brand, price, etc.
@@ -44,6 +47,7 @@ Onde:
 
 Exemplo de objeto para o método patch:  
 
+```
 [  
   {  
     "path": "price",   
@@ -51,6 +55,7 @@ Exemplo de objeto para o método patch:
     "value": "5.99'"  
   }  
 ]  
+```
 
 - (DELETE)    
 http://localhost:5000/Product/{id}
@@ -62,6 +67,7 @@ http://localhost:5000/Product/{id}
 
 - No arquivo appsettings.Development.json deve-se configurar as seguintes variáveis:  
 
+```
   "TokenConfiguration": {  
     "Secret": "secret do token",   
   },  
@@ -69,4 +75,5 @@ http://localhost:5000/Product/{id}
     "login": "usuario",  
     "senha": "senha_secreta"   
   }  
+```
 
